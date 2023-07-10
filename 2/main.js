@@ -1,5 +1,5 @@
-const newArr = (sentence) => {
-    const arr1 = sentence[0].split(' ');
+const newArr = (words) => {
+    const arr1 = words[0].split(' ');
     return arr1.map((word) => word.toUpperCase()).join(' ');
   };
   
